@@ -90,9 +90,13 @@ export default function HomePage() {
             </div>
           </div>
           <div className="hero-card">
-            <div className="portrait-placeholder">
-              <span>Founder Photo</span>
-            </div>
+          <div className="portrait-placeholder">
+          <img 
+                src="/images/founder-poster.jpg" 
+                alt="Founder - Suganthi Jambulingam"
+                style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
+          />
+          </div>    
             <div className="founder-brief">
               <p className="mini-label">Founder&apos;s Message</p>
               <h3>Suganthi Jambulingam</h3>
