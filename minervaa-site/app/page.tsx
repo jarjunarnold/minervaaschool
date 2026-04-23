@@ -96,16 +96,7 @@ export default function HomePage() {
                 alt="Founder - Suganthi Jambulingam"
                 style={{ width: "100%", height: "100%", objectFit: "cover", borderRadius: "12px" }}
           />
-          </div>    
-            <div className="founder-brief">
-              <p className="mini-label">Founder&apos;s Message</p>
-              <h3>Suganthi Jambulingam</h3>
-              <p>Founder &amp; Correspondent</p>
-              <p>
-                We believe education must prepare children not only for examinations,
-                but for life.
-              </p>
-            </div>
+          </div>
           </div>
         </div>
       </section>
