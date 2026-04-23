@@ -276,9 +276,49 @@ textarea {
 }
 
 .site-footer {
-  background: var(--navy);
+  background: linear-gradient(135deg, #08234a 0%, #0b2f63 100%);
+  color: #ffffff;
+  padding: 48px 0;
+  margin-top: 60px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer-logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.footer-left h3 {
+  margin: 0 0 8px;
+  font-size: 1.8rem;
+}
+
+.footer-tagline {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.footer-right p {
+  margin: 0 0 12px;
+  font-size: 1rem;
+}
+
+.footer-right a {
   color: white;
-  padding: 2rem 0;
+  text-decoration: none;
 }
 
 @media (max-width: 900px) {
