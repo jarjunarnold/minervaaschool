@@ -280,6 +280,7 @@ textarea {
   color: #ffffff;
   padding: 48px 0;
   margin-top: 60px;
+  border-top: 3px solid #d4af37;
 }
 
 .footer-grid {
@@ -302,18 +303,18 @@ textarea {
 }
 
 .footer-left h3 {
-  margin: 0 0 8px;
-  font-size: 1.8rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .footer-tagline {
-  margin: 0;
-  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.95rem;
+  opacity: 0.75;
 }
 
 .footer-right p {
-  margin: 0 0 12px;
-  font-size: 1rem;
+  margin-bottom: 14px;
 }
 
 .footer-right a {
