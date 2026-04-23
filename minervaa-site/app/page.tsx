@@ -312,11 +312,9 @@ export default function HomePage() {
             <p>Rooted in Values. Driven by Excellence.</p>
           </div>
           <div>
-            <p>Jothi Nagar, Pollachi - 642001.</p>
-            <p>admin@minervaaschool.com</p>
+            <p>Jothi Nagar, Pollachi - 642001</p>
+            <p>info@minervaaschool.com</p>
             <p><strong>Phone:</strong> +91 96004 17171</p>
-            <p>     : +91 99449 72100</p>
-            <p><strong>Phone:</strong> +91 99949 59484</p>
           </div>
         </div>
       </footer>
