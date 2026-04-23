@@ -316,7 +316,7 @@ export default function HomePage() {
             <p>admin@minervaaschool.com</p>
             <p><strong>Phone:</strong> +91 96004 17171</p>
             <p>     : +91 99449 72100</p>
-            <p><strong>     :</strong> +91 99949 59484</p>
+            <p><strong>Phone:</strong> +91 99949 59484</p>
           </div>
         </div>
       </footer>
