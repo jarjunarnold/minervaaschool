@@ -222,8 +222,9 @@ button {
 
 .founder-message {
   background: var(--cream);
-  border: 1px solid var(--border);
-  border-radius: 28px;
+  border: none;
+  border-radius: 16px;
+  border-shadow: 0 10px 30px rgba(0,0,0,0.2);
   padding: 2rem;
   display: grid;
   grid-template-columns: .8fr 1.2fr;
