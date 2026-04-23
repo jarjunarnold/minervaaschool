@@ -305,24 +305,27 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer className="site-footer">
-        <div>
-        <div className="footer-brand">
+     <footer className="site-footer">
+  <div className="container footer-grid">
+    <div>
+      <div className="footer-brand">
         <img
-            src="/images/logo.png"
-            alt="Minervaa Vidhya Mandhir logo"
-            className="footer-logo"
+          src="/images/logo.png"
+          alt="Minervaa Vidhya Mandhir logo"
+          className="footer-logo"
         />
         <h3>Minervaa Vidhya Mandhir</h3>
-        </div>
-        <p>Rooted in Values. Driven by Excellence.</p>
-        </div>
-            <p>Jothi Nagar, Pollachi - 642001</p>
-            <p>info@minervaaschool.com</p>
-            <p><strong>Phone:</strong> +91 96004 17171</p>
-          </div>
-        </div>
-      </footer>
+      </div>
+      <p>Rooted in Values. Driven by Excellence.</p>
+    </div>
+
+    <div>
+      <p>Jothi Nagar, Pollachi - 642001</p>
+      <p>admin@minervaaschool.com</p>
+      <p><strong>Phone:</strong> +91 96004 17171</p>
+    </div>
+  </div>
+</footer>
     </main>
   );
 }
