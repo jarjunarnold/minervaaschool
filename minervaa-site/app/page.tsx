@@ -275,8 +275,10 @@ export default function HomePage() {
           </div>
           <div className="admission-card">
             <h3>Enquiry Details</h3>
-            <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
-            <p><strong>Email:</strong> info@minervaaschool.com</p>
+            <p><strong>Phone:</strong> +91 96004 17171</p>
+            <p><strong>Phone:</strong> +91 99449 72100</p>
+            <p><strong>Phone:</strong> +91 99949 59484</p>
+            <p><strong>Email:</strong> admin@minervaaschool.com</p>
             <p><strong>Location:</strong> Pollachi, Tamil Nadu</p>
             <a href="#contact" className="btn btn-primary">Book a Campus Visit</a>
           </div>
