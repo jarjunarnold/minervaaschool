@@ -317,7 +317,7 @@ export default function HomePage() {
 
   <div>
     <h3>Minervaa Vidhya Mandhir</h3>
-    <p className="tagline">Rooted in Values. Driven by Excellence.</p>
+    <p>Rooted in Values. Driven by Excellence.</p>
   </div>
 </div>
     </div>
