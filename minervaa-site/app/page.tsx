@@ -46,10 +46,14 @@ export default function HomePage() {
     <main>
       <header className="site-header">
         <div className="container nav-wrap">
-          <div>
-            <p className="eyebrow">Minervaa Vidhya Mandhir</p>
-            <p className="brand-subtitle">Pollachi</p>
-          </div>
+            <div className="brand-left">
+              <img src="/images/logo.png" className="logo" />
+
+              <div>
+                <p className="eyebrow">Minervaa Vidhya Mandhir</p>
+                <p className="brand-subtitle">Pollachi</p>
+              </div>
+             </div>
           <nav>
             <a href="#about">About</a>
             <a href="#academics">Academics</a>
