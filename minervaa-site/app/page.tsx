@@ -316,7 +316,7 @@ export default function HomePage() {
   <img src="/images/logo.png" className="footer-logo" />
 
   <div>
-    <h3>Minervaa Vidhya Mandhir</h3>
+    <h1>Minervaa Vidhya Mandhir</h1>
     <p>Rooted in Values. Driven by Excellence.</p>
   </div>
 </div>
