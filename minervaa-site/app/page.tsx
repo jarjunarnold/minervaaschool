@@ -314,7 +314,7 @@ export default function HomePage() {
     <div className="footer-left">
       <div className="footer-brand">
         <img
-          src="/images/logo.png"
+          <img src="/images/logo.png" className="footer-logo" />
           alt="Minervaa Vidhya Mandhir logo"
           className="footer-logo"
         />
