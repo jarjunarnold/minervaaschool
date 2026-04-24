@@ -313,16 +313,13 @@ export default function HomePage() {
   <div className="container footer-grid">
     <div className="footer-left">
       <div className="footer-brand">
-        <img
-          <img src="/images/logo.png" className="footer-logo" />
-          alt="Minervaa Vidhya Mandhir logo"
-          className="footer-logo"
-        />
-        <div>
-          <h3>Minervaa Vidhya Mandhir</h3>
-          <p className="footer-tagline">Rooted in Values. Driven by Excellence.</p>
-        </div>
-      </div>
+  <img src="/images/logo.png" className="footer-logo" />
+
+  <div>
+    <h3>Minervaa Vidhya Mandhir</h3>
+    <p className="tagline">Rooted in Values. Driven by Excellence.</p>
+  </div>
+</div>
     </div>
 
     <div className="footer-right">
