@@ -56,6 +56,28 @@ img { max-width: 100%; }
   margin: .25rem 0 0;
 }
 
+.brand-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+}
+
+/* Improve existing text */
+.eyebrow {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.brand-subtitle {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
 nav {
   display: flex;
   gap: 1.25rem;
