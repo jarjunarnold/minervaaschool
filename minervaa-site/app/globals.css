@@ -320,9 +320,9 @@ textarea {
 }
 
 .footer-logo {
-  width: 90px;
-  height: 90px;
-  object-fit: contain;
+  width: 60px;      /* increase size */
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .footer-left h3 {
