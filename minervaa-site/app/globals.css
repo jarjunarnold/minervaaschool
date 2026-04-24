@@ -316,12 +316,25 @@ textarea {
 .footer-brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
 }
 
 .footer-logo {
-  width: 70px;
-  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.2));
+  width: 48px;   /* 🔥 same proportion as header */
+  height: 48px;
+  object-fit: contain;
+}
+
+.footer-brand h3 {
+  font-size: 20px;     /* reduce from big size */
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer-brand p {
+  font-size: 13px;
+  margin: 2px 0 0;
+  opacity: 0.8;
 }
 
 .footer-left h3 {
@@ -368,6 +381,7 @@ textarea {
   .hero {
     padding: 3.5rem 0;
   }
+  
   .footer-brand {
   display: flex;
   align-items: center;
@@ -380,9 +394,5 @@ textarea {
   height: 14px;
   object-fit: contain;
   flex-shrink: 0;
-}
-
-.footer-brand h3 {
-  margin: 0;
 }
 }
