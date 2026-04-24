@@ -339,12 +339,6 @@ textarea {
   opacity: 0.8;
 }
 
-.footer-left h3 {
-  font-size: 2rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-
 .footer-tagline {
   font-size: 0.95rem;
   opacity: 0.75;
@@ -357,6 +351,11 @@ textarea {
 .footer-right a {
   color: white;
   text-decoration: none;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 900px) {
