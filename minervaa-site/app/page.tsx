@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const highlights = [
   'Nearly 300 students',
   'English-medium instruction',
